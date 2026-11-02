@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meta Glass Academics — Learn through your lens</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header class="topbar">
+  <nav class="navpill">
+    <a class="navlogo" href="index.html">Meta Glass <em>Academics</em></a>
+    <span class="navlinks">
+      <a href="login.html?role=student">Student login</a>
+      <a href="login.html?role=parent">Parents login</a>
+      <a href="login.html?role=teacher">Teacher login</a>
+      <a href="#about">About</a>
+    </span>
+    <span class="avatar" id="avatarDot" title="Account"></span>
+  </nav>
+</header>
+
+<main class="hero">
+  <section class="copy">
+    <p class="kicker">For school &amp; college · Demo build</p>
+    <h1>Your classes, captured.<br>Your progress, <span>proven.</span></h1>
+    <p class="lede">Meta Glass Academics records study sessions through smart glasses —
+      an <strong>external webcam stands in</strong> until you have the hardware — processes
+      them into focus and study records, and serves every portal from one shared database.</p>
+    <ol class="pipeline">
+      <li><b>1 · Record</b> Glasses / webcam capture the session</li>
+      <li><b>2 · Process</b> Phone + server score focus &amp; topics</li>
+      <li><b>3 · Store</b> Records land in the shared database</li>
+      <li><b>4 · Serve</b> Student, teacher &amp; parent panels update</li>
+    </ol>
+    <div class="cta">
+      <a class="btn solid" href="login.html">Sign in</a>
+      <a class="btn outline" href="login.html?mode=signup">Sign up</a>
+    </div>
+    <p class="demo">Demo logins — <code>student1</code> · <code>parent1</code> · <code>teacher1</code> (password <code>pass123</code>)</p>
+  </section>
+
+  <section class="device" aria-label="How the system connects">
+    <div class="device-head">LIVE PIPELINE</div>
+    <div class="flow">
+      <div class="node">◉ Glasses / Webcam<div class="tiny">records session</div></div>
+      <div class="ask">Ask Meta AI when stuck →</div>
+      <div class="arrow">↓</div>
+      <div class="node">▣ Phone + Server<div class="tiny">focus · topics · duration</div></div>
+      <div class="arrow">↓</div>
+      <div class="node">▤ Database record<div class="tiny">JSON store · main record</div></div>
+      <div class="arrow">↓</div>
+      <div class="node">▦ Website</div>
+      <div class="split"><span>Student</span><span>Teacher</span><span>Parent</span></div>
+    </div>
+    <div class="apistat" id="apiStat">Checking server…</div>
+  </section>
+</main>
+
+<section class="panels" id="about">
+  <div class="pcol">
+    <h2>Student panel</h2>
+    <p>Stats, calendar, previous sessions, diary, <strong>Ask Meta AI</strong>, profile — plus the Glass Studio recorder.</p>
+    <a href="login.html?role=student">Open student login →</a>
+  </div>
+  <div class="pcol">
+    <h2>Teacher panel</h2>
+    <p>Student records, test marks, progress graphs, announcements, parent consults.</p>
+    <a href="login.html?role=teacher">Open teacher login →</a>
+  </div>
+  <div class="pcol">
+    <h2>Parent panel</h2>
+    <p>Child progress, test marks, teacher notes, study graphs, consult requests.</p>
+    <a href="login.html?role=parent">Open parent login →</a>
+  </div>
+</section>
+
+<footer>Meta Glass Academics · demo build · webcam acts as the glasses camera · Meta Llama API powers Ask</footer>
+<script src="../shared/api.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

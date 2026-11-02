@@ -1,0 +1,13 @@
+[
+ {
+  "answer": "A discriminant > 0 means two real roots, = 0 one repeated root, < 0 no real roots. Example: x\u00c2\u00b2-5x+6=0 \u00e2\u2020\u2019 D=1, roots 2 and 3.",
+  "date": "2026-11-01T18:20:00",
+  "id": "ask_001",
+  "latency_ms": 840,
+  "provider": "meta-llama",
+  "question": "Explain discriminant with an example",
+  "role": "student",
+  "subject_guess": "Mathematics",
+  "user_id": "u_stu1"
+ }
+]

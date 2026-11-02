@@ -1,0 +1,113 @@
+[
+ {
+  "date": "2026-10-31",
+  "duration_min": 55,
+  "focus_score": 78,
+  "id": "ss_001",
+  "source": "webcam",
+  "student_id": "s_001",
+  "subject": "Mathematics",
+  "topics": [
+   "Quadratic equations",
+   "Discriminant"
+  ]
+ },
+ {
+  "date": "2026-10-31",
+  "duration_min": 40,
+  "focus_score": 71,
+  "id": "ss_002",
+  "source": "webcam",
+  "student_id": "s_001",
+  "subject": "Physics",
+  "topics": [
+   "Refraction",
+   "Lens formula"
+  ]
+ },
+ {
+  "date": "2026-10-31",
+  "duration_min": 30,
+  "focus_score": 66,
+  "id": "ss_003",
+  "source": "manual",
+  "student_id": "s_001",
+  "subject": "English",
+  "topics": [
+   "Essay writing"
+  ]
+ },
+ {
+  "date": "2026-11-01",
+  "duration_min": 70,
+  "focus_score": 84,
+  "id": "ss_004",
+  "source": "webcam",
+  "student_id": "s_001",
+  "subject": "Mathematics",
+  "topics": [
+   "Probability",
+   "Sets"
+  ]
+ },
+ {
+  "date": "2026-11-01",
+  "duration_min": 45,
+  "focus_score": 80,
+  "id": "ss_005",
+  "source": "webcam",
+  "student_id": "s_001",
+  "subject": "Chemistry",
+  "topics": [
+   "Mole concept"
+  ]
+ },
+ {
+  "date": "2026-11-02",
+  "duration_min": 65,
+  "focus_score": 88,
+  "id": "ss_006",
+  "source": "webcam",
+  "student_id": "s_001",
+  "subject": "Physics",
+  "topics": [
+   "Current electricity"
+  ]
+ },
+ {
+  "date": "2026-11-02",
+  "duration_min": 50,
+  "focus_score": 82,
+  "id": "ss_007",
+  "source": "webcam",
+  "student_id": "s_001",
+  "subject": "Mathematics",
+  "topics": [
+   "Trigonometry identities"
+  ]
+ },
+ {
+  "date": "2026-11-01",
+  "duration_min": 60,
+  "focus_score": 75,
+  "id": "ss_008",
+  "source": "webcam",
+  "student_id": "s_002",
+  "subject": "Biology",
+  "topics": [
+   "Cell division"
+  ]
+ },
+ {
+  "date": "2026-11-02",
+  "duration_min": 55,
+  "focus_score": 79,
+  "id": "ss_009",
+  "source": "webcam",
+  "student_id": "s_002",
+  "subject": "Physics",
+  "topics": [
+   "Optics revision"
+  ]
+ }
+]

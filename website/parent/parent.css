@@ -1,0 +1,7 @@
+/* Parent portal accents */
+:root { --accent: #2e7d4f; --accent-dark: #1e5c34; }
+.sidebar .brand { color: #a9d3b8; }
+.navbtn svg { stroke: #a9d3b8; }
+.navbtn.active { box-shadow: inset 3px 0 0 #a9d3b8; }
+.card .v { color: #1e5c34; }
+#cNote { line-height: 1.35; }

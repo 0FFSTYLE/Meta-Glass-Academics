@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign in — Meta Glass Academics</title>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<a class="back" href="index.html">← Back to home</a>
+<main class="wrap">
+  <section class="side">
+    <p class="kicker">Meta Glass Academics</p>
+    <h1>One lens.<br>Three <span>portals.</span></h1>
+    <p>Glasses record, the server processes, the database remembers — students learn, teachers guide, parents stay in the loop.</p>
+    <ul>
+      <li><b>Students</b> — stats, diary &amp; Ask Meta AI</li>
+      <li><b>Parents</b> — progress, marks &amp; teacher notes</li>
+      <li><b>Teachers</b> — records, tests &amp; announcements</li>
+    </ul>
+  </section>
+  <section class="card">
+    <div class="tabs" role="tablist">
+      <button data-role="student" class="on">Student</button>
+      <button data-role="parent">Parent</button>
+      <button data-role="teacher">Teacher</button>
+    </div>
+    <h2 id="formTitle">Welcome back</h2>
+    <p class="sub" id="formSub">Sign in to your student portal</p>
+    <form id="authForm">
+      <label>Username<input id="username" autocomplete="username" placeholder="e.g. student1" required></label>
+      <label id="nameRow" hidden>Full name<input id="fullname" placeholder="Your name"></label>
+      <label>Password<input id="password" type="password" autocomplete="current-password" placeholder="••••••••" required></label>
+      <button class="btn" type="submit" id="submitBtn">Sign in →</button>
+    </form>
+    <div class="meta">
+      <button class="link" id="forgotBtn" type="button">Forgot password?</button>
+      <span>·</span>
+      <button class="link" id="modeBtn" type="button">New here? Create account</button>
+    </div>
+    <p class="err" id="errBox" hidden></p>
+    <p class="demo">Demo: <code>student1 / parent1 / teacher1</code> · password <code>pass123</code></p>
+  </section>
+</main>
+<script src="../shared/api.js"></script>
+<script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+/* Student portal accents — warm paper theme inherited from theme.css */
+:root { --accent: #1f6feb; --accent-dark: #174ea6; }
+.sidebar .brand { color: #9db8e8; }
+.navbtn svg { stroke: #9db8e8; }
+.navbtn.active { box-shadow: inset 3px 0 0 #9db8e8; }
+.card .v { color: #174ea6; }

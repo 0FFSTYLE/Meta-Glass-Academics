@@ -1,0 +1,5 @@
+/* Teacher portal accents */
+.sidebar .brand { color: var(--gold); }
+.card .v { color: var(--accent-dark); }
+.replyrow { display: flex; gap: 8px; margin-top: 8px; }
+.replyrow input { flex: 1; }
